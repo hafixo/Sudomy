@@ -1,4 +1,4 @@
-FROM alpine:3.9 AS builder
+FROM alpine:3.10 AS builder
 LABEL maintainer="myugan59@gmail.com"
 
 ENV GOROOT=/usr/lib/go GOPATH=/go PATH=/go/bin:$PATH PHANTOMJS_VERSION=2.1.1 PATH="$PATH:/usr/lib/sudomy"
